@@ -1,4 +1,4 @@
-package xyz.tner.jersey;
+package xyz.tuny.jersey;
 
 import static org.junit.Assert.assertTrue;
 

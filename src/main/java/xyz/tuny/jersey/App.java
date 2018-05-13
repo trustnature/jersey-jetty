@@ -1,4 +1,4 @@
-package xyz.tner.jersey;
+package xyz.tuny.jersey;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -15,8 +15,8 @@ public class App
         Server server=new Server(82);
         ServletHolder servlet = new ServletHolder(ServletContainer.class);
         servlet.setInitParameter("com.sun.jersey.config.property.resourceConfigClass", "com.sun.jersey.api.core.PackagesResourceConfig");
-        servlet.setInitParameter("com.sun.jersey.config.property.packages", "xyz.tner.jersey.action");
-        servlet.setInitParameter("javax.ws.rs.Application", "xyz.tner.jersey.RESTApplication");
+        //servlet.setInitParameter("com.sun.jersey.config.property.packages", "xyz.tuny.jersey.action");
+        servlet.setInitParameter("javax.ws.rs.Application", "xyz.tuny.jersey.RESTApplication");
 
         ServletContextHandler handler = new ServletContextHandler(ServletContextHandler.SESSIONS);
         handler.setContextPath("/");

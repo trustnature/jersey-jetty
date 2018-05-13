@@ -1,4 +1,4 @@
-package xyz.tner.jersey.action;
+package xyz.tuny.jersey.action;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
