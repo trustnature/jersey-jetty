@@ -12,3 +12,7 @@
 https://stackoverflow.com/questions/40385485/maven-three-jars-in-one-project-trying-to-use-an-assembly-but-not-getting-pom/40391530#40391530
 
 三、对于spring集成的项目 建议使用 maven-shade-plugin 见 shade 分支。
+
+jersy study:
+1、资源定位
+2、AOP Providers Filter
